@@ -11,8 +11,14 @@ int main()
  sum=sum_v(x,y);
  printf("Sum of %d and %d = %d \n",x,y,sum);
 
- div=div_v(x,y);
- printf("dev of %d and %d = %d ",x,y,sum);
+ if (div_v(x,y)==-1)
+printf("cANT DIV BY 0");
+else
+{
+        div = div_v(x,y);
+         printf("dev of %d and %d = %d ",x,y,div);
+
+}
 
 
     return 0;

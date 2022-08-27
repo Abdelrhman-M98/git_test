@@ -6,6 +6,7 @@ int sum_v (int a, int b){
 }
 
 int div_v(int a, int b){
-
+    if (b)
     return (a/b);
+    else return -1;
 }
