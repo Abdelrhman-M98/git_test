@@ -1,3 +1,8 @@
 # depslib dependency file v1.0
 1661605173 source:d:\courses\amit\toolin_2\git_test.c
 
+1661610023 source:d:\courses\lab & tests\tooling_2\git_test.c
+	"git_test.h"
+
+1661610024 d:\courses\lab & tests\tooling_2\git_test.h
+
